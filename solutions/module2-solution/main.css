@@ -6,12 +6,13 @@
 
 body{
 	font-family: arial;
-	padding:0 20px;
+	padding:0 15px;
 }
 
 h1{
 	text-align:center;
 	margin:40px 0;
+	font-size: 1.75em;
 }
 
 div.section{
@@ -20,16 +21,13 @@ div.section{
 }
 
 div.section div{
-	margin-right: 20px;
+	margin: 0 10px;
     position: relative;
     background-color: #c0c0c0;
-	border:3px solid black;
+	border:1px solid black;
 	padding:50px 15px 15px;
 }
 
-div.section:last-child{
-	margin-right: 0px;
-}
 
 div.section h3{
 	position: absolute;
@@ -38,8 +36,9 @@ div.section h3{
 	padding: 10px;
 	width: 150px;
 	text-align: center;
-	border-bottom:3px solid black;
-	border-left:3px solid black;
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+	font-size:1.25em;
 }
 
 #section1 h3{
@@ -78,4 +77,5 @@ div.section h3{
  .col-sm-4{width:33.33%;}
  .col-sm-3{width:25%;}
  .col-sm-2{width:16.67%;}
+ body{padding:0 30px;}
 }
