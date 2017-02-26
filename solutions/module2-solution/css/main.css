@@ -17,7 +17,6 @@ h1{
 
 div.section{
 	margin-bottom:20px;
-	float:left;
 }
 
 div.section div{
@@ -56,26 +55,26 @@ div.section h3{
 
 
 @media (min-width: 992px){
- .col-lg-12{width:100%; }
- .col-lg-6{width:50%;}
- .col-lg-4{width:33.33%;}
- .col-lg-3{width:25%;}
- .col-lg-2{width:16.67%;}
+ .col-lg-12{width:100%;float:left;}
+ .col-lg-6{width:50%;float:left;}
+ .col-lg-4{width:33.33%;float:left;}
+ .col-lg-3{width:25%;float:left;}
+ .col-lg-2{width:16.67%;float:left;}
 }
 
 @media (max-width: 991px) and (min-width: 768px){
- .col-md-12{width:100%; }
- .col-md-6{width:50%;}
- .col-md-4{width:33.33%;}
- .col-md-3{width:25%;}
- .col-md-2{width:16.67%;}	
+ .col-md-12{width:100%;float:left;}
+ .col-md-6{width:50%;float:left;}
+ .col-md-4{width:33.33%;float:left;}
+ .col-md-3{width:25%;float:left;}
+ .col-md-2{width:16.67%;float:left;}	
 }
 
 @media (max-width: 767px){
- .col-sm-12{width:100%;}
- .col-sm-6{width:50%;}
- .col-sm-4{width:33.33%;}
- .col-sm-3{width:25%;}
- .col-sm-2{width:16.67%;}
+ .col-sm-12{width:100%;float:left;}
+ .col-sm-6{width:50%;float:left;}
+ .col-sm-4{width:33.33%;float:left;}
+ .col-sm-3{width:25%;float:left;}
+ .col-sm-2{width:16.67%;float:left;}
  body{padding:0 30px;}
 }
