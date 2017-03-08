@@ -1,0 +1,77 @@
+*{
+
+
+}
+
+body{
+	background-color: #fffcd2;
+}
+
+.container>h2{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.navbar-header>a.navbar-brand{
+	color:#020200;
+	width:180px;
+}
+
+#header-nav{
+	background-color: #52d21e;
+	border-radius: 0;
+	border: 0;
+}
+
+#header-nav .navbar-nav a{
+	color:white;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+#header-nav .navbar-nav .active a{
+	color:#333;
+}
+
+#header-nav .navbar-nav li:hover{
+	background-color: #5cda28;
+}
+
+div.main-section{
+	height:1000px;
+}
+
+/* Override Navigation styles for xs */
+@media (max-width: 768px){
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: rgba(247,247,247,0.32);
+}
+.navbar-default .navbar-collapse{
+	border-color:#ffeb3b;
+	border-bottom:2px solid #ffeb3b;
+	background-color: #75e249;
+}
+
+.navbar-default .navbar-toggle{
+	border-color: rgba(241, 241, 241, 0.59);
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: rgba(239, 239, 239, 0.82); 
+}
+}
+
+div.menu-panel{
+	margin-bottom: 20px;
+}
+
+div.menu-panel.chicken{
+	background-color: #2ee7ff;
+}
+
+div.menu-panel.beef{
+	background-color: #CDDC39;
+}
+
+div.menu-panel.sushi{
+	background-color: #ffad16;
+}
