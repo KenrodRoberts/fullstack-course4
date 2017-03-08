@@ -36,6 +36,9 @@ body{
 	background-color: #5cda28;
 }
 
+div.main-section{
+	height:1000px;
+}
 
 /* Override Navigation styles for xs */
 @media (max-width: 768px){
